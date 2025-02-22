@@ -64,6 +64,23 @@ main {
 
 #form-contato button:hover {
     background-color: rgb(105, 196, 105);
-    cursor: pointer;
-    
+    cursor: pointer;   
+}
+
+#tabela-contatos {
+    margin: 18px auto;
+    border-spacing: 0;
+}
+
+#tabela-contatos thead {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tabela-contatos > thead > tr > th:nth-child(1){
+    padding-right: 28px;
+}
+
+#tabela-contatos tbody td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.64);
 }
